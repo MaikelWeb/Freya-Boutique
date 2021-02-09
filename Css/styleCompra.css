@@ -1,0 +1,78 @@
+/*----------------------------General--------------------------*/
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+:root{
+   --color-platino: #ecede8;
+   --color-rojizo: #8e5331;
+   --color-castaño: #9b6b43;
+   --color-camello: #c1a07d;
+   --color-rojo: #963212;
+}
+.titulo{
+   font-size: 50px;
+   font-family: 'Bellota', cursive;
+   font-weight: 700;
+   color: var(--color-rojo);
+}
+.boton{
+   background-color: var(--color-castaño);
+   color: white;
+   font-size: 1.2rem;
+   font-family: 'Hind Siliguri', sans-serif;
+   border: 0;
+   transition: all ease-in-out 0.2s;
+}
+.boton:hover{
+   color: white;
+   transform: scale(1.03);
+   background-color: var(--color-rojizo);
+}
+.boton:focus{
+   color: white;
+   transform: scale(1.03);
+   background-color: var(--color-rojizo);
+   border-color: var(--color-rojizo);
+}
+/*-----------------------Seccion con Correo y telefono---------------------*/
+.bann{
+   background-color: var(--color-platino);
+}
+.icon-ban{
+   font-size: 1.1rem;
+   color: var(--color-rojizo);
+}
+.info-ban{
+   font-size: 18px;
+   font-family: 'Hind Siliguri', sans-serif;
+}
+/*------------------------Cuerpo de Solicitar--------------------------*/
+.txt-form{
+   font-size: 23px;
+   font-family: 'Hind Siliguri', sans-serif;
+   color: var(--color-castaño);
+   font-weight: 600;
+}
+.formul{
+   box-shadow: 0px 0px 12px 9px rgba(0,0,0,0.09);
+}
+.prop{
+   font-size: 18px;
+   font-weight: 700;
+}
+.mensaje{
+   font-family: 'Hind Siliguri', sans-serif;
+   font-weight: 700;
+}
+/*--------------------------Responsive-------------------------------*/
+@media (min-width: 992px) and (max-width: 1199px){
+   
+}
+@media (min-width: 768px) and (max-width: 991px){
+   
+}
+@media (min-width: 576px) and (max-width: 767px){
+   
+}

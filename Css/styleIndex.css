@@ -1,0 +1,149 @@
+/*------------------------General---------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --color-platino: #ecede8;
+    --color-rojizo: #8e5331;
+    --color-castaño: #9b6b43;
+    --color-camello: #c1a07d;
+    --color-rojo: #963212;
+}
+.titulos{
+    font-family: 'Bellota', cursive;
+    font-weight: 700;
+    color: var(--color-rojo);
+}
+.boton{
+    background-color: var(--color-castaño);
+    color: white;
+    font-size: 1.3rem;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.boton:hover{
+    color: white;
+    transform: scale(1.03);
+}
+/*----------------------Seccion con Correo y telefono----------------------*/
+.bann{
+    background-color: var(--color-platino);
+}
+.icon-ban{
+    font-size: 1.1rem;
+    color: var(--color-rojizo);
+}
+.info-ban{
+    font-size: 18px;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+/*--------------------Seccion de la imagen de portada----------------------*/
+.portada{
+    background-image: url(../Img/Portada.png);
+    background-repeat: no-repeat;   
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+}
+/*---------------------Seccion Destacados--------------------------*/
+.title-nov{
+    font-size: 25px;
+    padding: 2px;
+    color: var(--color-rojizo);
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.texto-nov{
+    font-size: 16px;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+/*--------------------Seccion comentario--------------------------*/
+.comments{
+    margin-top: 6rem;
+}
+.quotes{
+    font-size: 3rem;
+    padding: 15px 0px;
+}
+.mujer{
+    width: 75px;
+    height: 75px;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+    margin-right: 15px;
+    margin-left: -80px;
+}
+.n-mujer{
+    color: black;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 1.20rem;
+}
+.n-mujer:hover{
+    color: black;
+}
+/*---------------------Seccion Informacion--------------------------*/
+.infor{
+    background-color: var(--color-platino);
+    padding-bottom: 20px;
+}
+.icons-info{
+    font-size: 3rem;
+    color: var(--color-rojizo);
+    padding: 20px 0px 10px 0px;
+}
+.titulo-inf{
+    font-size: 1.7rem;
+    font-family: 'Bellota', cursive;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.text-inf{
+    font-size: 1.1rem;
+    font-family: 'Hind Siliguri', sans-serif;
+    color: grey;
+    text-align: justify;
+}
+/*-------------------Seccion Suscripcion-------------------------*/
+.cont-subs{
+    position: relative;
+}
+.subs{
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding-top: 10px;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.prom{
+    font-family: 'Hind Siliguri', sans-serif;
+    position: absolute;
+    top: 2.5rem;
+    font-size: 1.1rem;
+    color: var(--color-rojo);
+    font-weight: 400;
+}
+.send{
+    text-decoration: none;
+}
+.send-icon{
+    color: var(--color-rojizo);
+}
+/*------------------------Responsive---------------------------*/
+@media (min-width: 768px) and (max-width: 991px){
+    .maqu-tab{
+        height: 157px;
+    }
+}
+@media (min-width: 576px) and (max-width: 768px){
+    .mujer{
+        width: 50px;
+        height: 50px;
+        background-position: 50%;
+        border-radius: 50%;
+        background-size: 100% auto;
+        margin-left: 3px;
+    }
+    .prom{
+        font-size: 1rem;
+    }
+}

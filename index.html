@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Página Boutique Freya</title>
+   <!--Link del icono de la pestaña de la pagina-->
+   <link rel="shortcut icon" href="Img/boutique.png" type="image/x-icon">
+   <!--Link Para Bootstrap-->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" 
+   integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+   <!--Link Fontawesome-->
+   <script src="https://kit.fontawesome.com/48aed12f18.js" crossorigin="anonymous"></script>
+   <!--Link Tipografia de texto-->
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap" rel="stylesheet">
+   <!--Link tipografia de estilo-->
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Bellota:wght@400;700&display=swap" rel="stylesheet">   
+   <!--Link del menu-->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+   <link rel="stylesheet" href="Css/menu.css">
+   <!--Link de Alert-->
+   <link rel="stylesheet" href="Css/sweetalert2.min.css">
+   <!--Link Css Privado-->
+   <link rel="stylesheet" href="Css/styleIndex.css">
+   <!--Link footer-->
+   <link rel="stylesheet" href="Css/footer.css">
+</head>
+<body>
+   <!--Seccion para Barra superior-->
+   <section class="h-100 p-2 bann d-lg-block d-none">
+      <div class="row justify-content-between">
+         <div class="col-lg-3 d-flex align-items-center mx-3">
+            <i class="far fa-envelope icon-ban me-2"></i><a class="text-dark text-decoration-none info-ban">freyaboutique@gmail.com</a>
+         </div>
+         <div class="col-lg-2 d-flex ps-5">
+            <a class="text-dark text-decoration-none info-ban">8710-9807</a><i class="fas fa-phone icon-ban ms-2"></i>
+         </div>
+      </div>
+   </section>
+   <!--Seccion para Menu-->
+   <section class="mt-0">
+      <nav aria-label="Menu Principal">
+         <div class="contiene">
+            <div class="inner-width">
+               <a href="Index.html" class="logo"><img src="Img/Logo.svg" alt="Freya Boutique Home"></a>
+                  <i class="menu-toggle-btn fas fa-bars"></i>
+               <nav class="navigation-menu" aria-label="Continuidad Menu Principal">
+                  <a href="Index.html" aria-current="page" class="active" title="Inicio"><i class="fas fa-home home mx-auto"></i></a>
+                  <a href="Atuendos.html" class="text-decoration-none">Atuendos</a>
+                  <a href="Accesorios.html" class="text-decoration-none">Accesorios</a>
+                  <a href="Maquillaje.html" class="text-decoration-none">Maquillaje</a>
+                  <a href="Descuentos.html" class="text-decoration-none" tabindex="-1">Descuentos</a>
+               </nav>
+            </div>
+         </div>
+      </nav>
+      <!--Seccion de imagen de Portada-->
+      <div class="row portada"></div>
+   </section>
+   <!------------------------------------------------------------Contenido--------------------------------------------------------->
+   <section>
+      <main>
+         <div class="container mt-4">
+            <!--Seccion de Destacados-->
+            <div class="row">
+               <div class="col-lg-12 d-flex justify-content-center">
+                  <h1 class="text-center titulos">Destacados</h1>
+               </div>
+                  <div class="row row-cols-1 row-cols-md-2 g-2 mx-auto">
+                     <div class="col">
+                        <div class="card">
+                           <img src="Img/Ropa.jpg" class="card-img-top" alt="Imagen de atuendos para mujer">
+                           <div class="card-body">
+                              <h5 class="card-title title-nov">Atuendos</h5>
+                              <p class="card-text texto-nov">En nuestra sección de Atuendos podrás encontrar estos productos y muchos más.</p>
+                              <a class="btn d-grid gap-2 boton" href="Atuendos.html" role="button">Visitar</a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col">
+                        <div class="card">
+                           <img src="Img/Accesorios.jpg" class="card-img-top accesorios" alt="Imagen de una mujer con varios accesorios (pañuelo,anillo,pulcera)">
+                           <div class="card-body">
+                              <h5 class="card-title title-nov pt-2">Accesorios</h5>
+                              <p class="card-text texto-nov">En nuestra sección de Accesorios podrás encontrar estos productos y muchos más.</p>
+                              <a class="btn d-grid gap-2 boton" href="Accesorios.html" role="button">Visitar</a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col">
+                        <div class="card">
+                           <img src="Img/Maquillaje.jpeg" class="card-img-top maqu-tab" alt="Imagen de paquete de maquillaje para mujer">
+                           <div class="card-body">
+                              <h5 class="card-title title-nov">Maquillaje</h5>
+                              <p class="card-text texto-nov">En nuestra sección de Maquillaje podrás encontrar estos productos y muchos más.</p>
+                              <a class="btn d-grid gap-2 boton" href="Maquillaje.html" role="button">Visitar</a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col">
+                        <div class="card">
+                           <img src="Img/Descuentos.jpg" class="card-img-top" alt="Imagen con ropa para mujer">
+                           <div class="card-body">
+                              <h5 class="card-title title-nov">Descuentos</h5>
+                              <p class="card-text texto-nov">En nuestra sección de Descuentos podrás encontrar variedad en los productos.</p>
+                              <a class="btn d-grid gap-2 boton" href="Descuentos.html" role="button">Visitar</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            <!--Seccion para los Comentarios-->
+            <section>
+               <div class="row comments">
+                  <div class="col-lg-12 d-flex justify-content-center">
+                     <h1 class="text-center titulos">Tus comentarios</h1>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-sm-6 mb-5">
+                     <div class="card text-center">
+                        <div class="card-body">
+                           <i class="fas fa-quote-right quotes"></i>
+                           <p class="card-text">Soy una clienta frecuente de la Boutique y me encanta la atencion que brindan, siempre con los mejores productos, 
+                              con un amplio conocimiento sobre el mercado, excelente atención y compromiso al devolver una prenda.</p>
+                           <span><img src="Img/mujer1.jpg" alt="Rostro de una mujer" class="mujer"><a class="text-decoration-none n-mujer">María Gonzales</a></span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-sm-6 mb-5">
+                     <div class="card text-center">
+                        <div class="card-body">
+                           <i class="fas fa-quote-right quotes"></i>
+                           <p class="card-text d-md-block d-sm-none d-block">Un excelente servicio de accesoria con cada cliente, con precios accesibles y 
+                              las mayores comodidades en el momentode visitar las instalaciones, genial la comodidad en la subscripción que brindan, recomiendo
+                              Freya Boutique.</p>
+                           <p class="card-text d-md-none d-sm-block d-none">Un excelente servicio de accesoria con cada cliente, con precios accesibles y las mayores
+                              comodidades en el momentode visitar las instalaciones, genial la comodidad en la subscripción, recomiendo Freya Boutique.</p>
+                           <span><img src="Img/mujer2.png" alt="Rostro de una mujer" class="mujer"><a class="text-decoration-none n-mujer">Andrea Pérez</a></span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <!--Seccion para la Informacion-->
+            <section>
+               <div class="row mt-5 infor align-items-center">
+               <div class="row row-cols-1 row-cols-md-3 g-4">
+                  <div class="col">
+                     <div class="card">
+                        <i class="fas fa-handshake text-center icons-info"></i>
+                        <div class="card-body">
+                           <h5 class="card-title text-center titulo-inf">Confianza</h5>
+                           <p class="card-text text-inf">Tenemos más de 4 años de experiencia en el mercado, ofreciendo siempres los productos de la mayor calidad.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col">
+                     <div class="card">
+                        <i class="fas fa-comments text-center icons-info"></i>
+                        <div class="card-body">
+                           <h5 class="card-title text-center titulo-inf">Cambiar</h5>
+                           <p class="card-text text-inf">¡Sin problema! Te cambiamos nuestro producto incluso los apartados y ofertas, ven a Freya Boutique o contactanos.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col">
+                     <div class="card">
+                        <i class="fas fa-gift text-center icons-info"></i>
+                        <div class="card-body">
+                           <h5 class="card-title text-center titulo-inf">Apartados</h5>
+                           <p class="card-text text-inf">Recuerda que todos nuestros productos apartados cuentan con un timpo limite de 30 días para ser retirados.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            </section>
+            <!--Seccion Suscribete-->
+            <section>
+               <div class="row mt-5">
+                  <div class="col-lg-6 col-md-12 cont-subs mb-3">
+                     <p class="subs">Suscríbete a nuestro boletín</p>
+                     <p class="prom">Recibirás la información de nuestros productos, tendencias...</p>
+                  </div>
+                  <div class="col-lg-6 col-md-12">
+                     <nav class="navbar mb-3 subs-tab" aria-label="Menu-Boletin">
+                        <form class="container-fluid" id="suscripcion">
+                           <div class="input-group">
+                              <input type="text" class="form-control" id="com" placeholder="fredaboutique@gmail.com" aria-label="Username" aria-describedby="boletin">
+                              <a class="input-group-text send" id="boletin" role="button" onclick="coment()" title="Boletin"><i class="fas fa-paper-plane send-icon"></i></a>
+                           </div>
+                        </form>
+                     </nav>
+                  </div>
+               </div>
+            </section>
+         </div>
+      </main>
+   </section>
+   <!-------------------------------------------------------------------Footer-------------------------------------------------->
+   <footer class="bg-primary">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6 col-6">
+               <h3 class="pt-4 text-white title-footer">Contáctanos</h3>
+               <i class="far fa-envelope me-2 contact-icons" aria-labelledby="icono-correo"></i><a class="text-black-50 contact" id="icono-correo">freyaboutique@gmail.com</a><br>
+               <i class="fas fa-phone-alt me-2 contact-icons" aria-labelledby="icono-telef"></i><a class="text-black-50 contact" id="icono-telef">2526-8745</a><br>
+               <i class="fab fa-whatsapp me-2 contact-icons" aria-labelledby="icono-whatsapp"></i><a class="text-black-50 contact" id="icono-whatsapp">8710-9807</a><br>
+               <i class="fab fa-facebook-f facebook"></i>
+               <i class="fab fa-instagram instagram"></i>
+               <i class="fab fa-twitter twitter"></i>
+               <hr class="line">
+               <div class="footer-copyright text-center py-2 text-black-50">
+                  <p>&copy; Copyright <a href="#" class="text-white">Maikel_2021</a></p>
+                  <p>Designed by Maikel Venegas S.</p>
+               </div>
+            </div>
+            <div class="col-lg-4 d-lg-block d-md-none d-sm-none d-none">
+               <h3 class="pt-4 text-white title-footer">Visítanos</h3>
+               <table class="table table-striped">
+                  <tbody class="horario">
+                  <tr>
+                     <th scope="row">Lunes</th>
+                     <td>10:00 - 17:00</td>
+                  </tr>
+                  <tr>
+                     <th scope="row">Martes</th>
+                     <td>10:00 - 17:00</td>
+                  </tr>
+                  <tr>
+                     <th scope="row">Miércoles</th>
+                     <td>10:00 - 17:00</td>
+                  </tr>
+                  <tr>
+                     <th scope="row">Jueves</th>
+                     <td>10:00 - 17:00</td>
+                  </tr>
+                  <tr>
+                     <th scope="row">Viernes</th>
+                     <td>10:00 - 17:00</td>
+                  </tr>
+                  <tr>
+                     <th scope="row">Sábado</th>
+                     <td>10:00 - 17:00</td>
+                  </tr>
+                  <tr>
+                     <th scope="row">Domingo</th>
+                     <td class="fw-bold">10:30 - 15:00</td>
+                  </tr>
+                  </tbody>
+               </table>
+            </div>
+            <!--Horario en Tablet-->
+            <div class="col-lg-4 col-md-6 col-sm-6 col-6 d-lg-none">
+               <h3 class="pt-4 text-white title-footer">Visitanos</h3>
+               <table class="table table-striped">
+                  <tbody class="horario">
+                  <tr>
+                     <th scope="row">Lunes - Miércoles</th>
+                     <td>10:00 - 17:00</td>
+                  </tr>
+                  <tr>
+                     <th scope="row">Jueves - Sábado</th>
+                     <td>10:00 - 17:00</td>
+                  </tr>
+                  <tr>
+                     <th scope="row">Domingo</th>
+                     <td class="fw-bold">10:30 - 15:00</td>
+                  </tr>
+                  </tbody>
+               </table>
+                     <i class="fas fa-map-marked-alt pe-2 maps" aria-labelledby="direccion"></i>
+                     <a href="https://goo.gl/maps/1x4wF28XiuVY3MSc8" class="text-decoration-none text-white map" target="_blank" id="direccion">Visítanos</a>
+            </div>
+            <div class="col-lg-4 d-lg-block d-sm-none d-none">
+               <div class="container mt-3">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1964.9798950507166!2d-84.09804014205534!3d9.937303740193725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e355c5e836b5%3A0xff03b64447e9a067!2zQ2FsbGUgNDAsIE3DoW50aWNhLCBTYW4gSm9zw6k!5e0!3m2!1ses!2scr!4v1611275596248!5m2!1ses!2scr" 
+                  width="420" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" title="Mapa para ubicación Freya"></iframe>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <!--Script para Bootstrap y Pooper-->
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+   <!--Script de Alert-->
+   <script src="Js/sweetalert2.min.js"></script>
+   <!--Script del menu-->
+   <script src="Js/menu.js"></script>
+   <!--Validacion del correo-->
+   <script src="Js/Validacion-boletin.js"></script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+/*Enlace de google maps para md y sm 
+    https://goo.gl/maps/1x4wF28XiuVY3MSc8
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg-primary{
+    background-color: #c1a07d !important;
+}
+.title-footer{
+    font-size: 2rem;
+    font-family: 'Bellota', cursive;
+    color: #ecede8;
+}
+.contact-icons{
+    font-size: 1.2rem;
+    padding-top: 12px;
+}
+.contact{
+    font-size: 19px;
+    font-family: 'Hind Siliguri', sans-serif;
+    vertical-align: middle;
+    text-decoration: none;
+    cursor: pointer;
+}
+.facebook{
+    color: #8e5331;
+    font-size: 2.2rem;
+    padding: 40px 10px 0px 0px;
+    cursor: pointer;
+    transition: .5 all ease-in-out;
+    
+}
+.instagram, .twitter{
+    color: #8e5331;
+    font-size: 2.2rem;
+    padding: 40px 10px 0px 20px;
+    cursor: pointer;
+    transition: .5 all ease-in-out;
+}
+.facebook:hover{
+    color: #1877f2;
+    transition: .5 all ease-in-out;
+} 
+.instagram:hover{
+    color: #7e38b3;
+    transition: .5 all ease-in-out;
+}
+.twitter:hover{
+    color: #009ded;
+    transition: .5 all ease-in-out;
+}
+.line{
+    background-color: #963212;
+    height: 3px;
+}
+.horario{
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.maps{
+    color: #8e5331;
+    font-size: 2.2rem;
+    padding: 20px 0px;
+    cursor: pointer;
+    transition: .5 all ease-in-out;
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .subs-tab{
+        margin-top: -10px;
+    }
+    .maps:hover{
+        color: #209f5f;
+        transition: .5 all ease-in-out;
+    }
+    .map{
+        font-size: 1.5rem;
+        color: white;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px){
+    .title-footer{
+        font-size: 1.6rem;
+    }
+    .contact{
+        font-size: 1.1rem;
+    }
+} 

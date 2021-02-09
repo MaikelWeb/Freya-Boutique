@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Página Boutique Freya</title>
+   <!--Link del icono de la pestaña de la pagina-->
+   <link rel="shortcut icon" href="Img/boutique.png" type="image/x-icon">
+   <!--Link Para Bootstrap-->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" 
+   integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+   <!--Link Fontawesome-->
+   <script src="https://kit.fontawesome.com/48aed12f18.js" crossorigin="anonymous"></script>
+   <!--Link Tipografia de texto-->
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap" rel="stylesheet">
+   <!--Link tipografia de estilo-->
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Bellota:wght@400;700&display=swap" rel="stylesheet">   
+   <!--Link del menu-->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+   <link rel="stylesheet" href="Css/menu.css">
+   <!--Link Css Privado-->
+   <link rel="stylesheet" href="Css/styleDescuentos.css">
+   <!--Link footer-->
+   <link rel="stylesheet" href="Css/footer.css">
+   <!--Link Alerts-->
+   <link rel="stylesheet" href="Css/sweetalert2.min.css">
+</head>
+<body>
+   <!--Seccion para Barra superior-->
+   <section class="h-100 p-2 bann d-none d-sm-none d-md-block">
+      <div class="container">
+         <div class="row justify-content-between">
+            <div class="col-md-5 col-lg-4 d-flex d-none d-sm-none d-md-block my-auto">
+               <i class="far fa-envelope icon-ban me-2"></i><a class="text-dark text-decoration-none info-ban">freyaboutique@gmail.com</a>
+            </div>
+            <div class="col-3 d-flex d-none d-sm-none d-md-block ps-5 text-end my-auto">
+               <a class="text-dark text-decoration-none my-auto info-ban">8710-9807</a><i class="fas fa-phone my-auto icon-ban ms-2"></i>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!--Seccion para Menu-->
+      <nav aria-label="Menu Principal">
+         <div class="contiene">
+            <div class="inner-width">
+               <a href="index.html" class="logo"><img src="Img/Logo.svg" alt="Freya Boutique Home"></a>
+                  <i class="menu-toggle-btn fas fa-bars" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"></i>
+               <nav class="navigation-menu" id="navbarSupportedContent" aria-label="Continuidad Menu Principal">
+                  <a href="index.html" aria-current="page" title="Inicio"><i class="fas fa-home home mx-auto"></i></a>
+                  <a href="Atuendos.html" class="text-decoration-none" aria-current="page">Atuendos</a>
+                  <a href="Accesorios.html" class="text-decoration-none" aria-current="page">Accesorios</a>
+                  <a href="Maquillaje.html" class="text-decoration-none" aria-current="page">Maquillaje</a>
+                  <a href="Descuentos.html" class="text-decoration-none active" aria-current="page" tabindex="-1">Descuentos</a>
+               </nav>
+            </div>
+         </div>
+      </nav>
+      <!--Seccion para Imagen Principal-->
+      <section class="portada w-100"></section>
+   <!-----------------------------------------------------------------------Contenido-------------------------------------------------------------------->
+   <section>
+      <main>
+         <div class="container mt-5">
+            <!--Seccion de Alerta-->
+            <div class="row mb-3 text-center">
+               <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                  <h1 class="alert-heading h4 fw-bold freya-alerta">Freya Boutique</h4>
+                  <hr>
+                  <!--Texto para los tamaños menos Tablet-->
+                  <p class="texto-alerta d-block d-sm-block d-md-none d-lg-block">Todos los descuentos que veras en esta página estarán disponibles en 
+                     nuestra Boutique hasta agotar existencia.<br>Si uno es de tú interes contactanos o visitanos.</p>
+                  <!--Texto solo para tamaño de tablet-->  
+                  <p class="texto-alerta d-none d-sm-none d-md-block d-lg-none">Todos los descuentos que veras en esta página estarán disponibles en 
+                     nuestra Boutique hasta agotar existencia. Si uno es de tú interes contactanos o visitanos.</p>
+                  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+               </div>
+            </div>
+            <!--------------Seccion del Contenido Principal---------------->
+            <div class="row">
+               <div class="container">
+                  <!--Primera Fila-->
+                  <div class="row mt-3">
+                     <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="single-product">
+                           <div class="product-img">
+                              <img src="Img/Descuento 1.png" alt="Imagen de bolsos marca VSL de distintos tamaños y unos labiales pequeños" class="w-100 h-100 rounded">
+                           </div>
+                           <div class="product-title">
+                              <h3>Bolso y Labial VSL</h3>
+                           </div>
+                           <div class="product-btns py-3">
+                              <a class="price me-3 my-auto text-decoration-line-through precio">₡27,000</a>
+                              <a class="ms-4 px-4 price me-3 my-auto fw-bolder precio-desc">₡18,900</a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="single-product">
+                           <div class="product-img">
+                              <img src="Img/Descuento 2.png" alt="Imagen de gafas con el cristal transparente" class="w-100 h-100 rounded">
+                           </div>
+                           <div class="product-title">
+                              <h3>Gafas Transparentes</h3>
+                           </div>
+                           <div class="product-btns py-3">
+                              <a class="price me-3 my-auto text-decoration-line-through precio">₡10,800</a>
+                              <a class="ms-4 px-4 price me-3 my-auto fw-bolder precio-desc">₡8,640</a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="single-product">
+                           <div class="product-img">
+                              <img src="Img/Descuento 3.png" alt="Imagen de paleta de colores para maquillaje" class="w-100 h-100 rounded">
+                           </div>
+                           <div class="product-title">
+                              <h3>Paleta Maquillaje</h3>
+                           </div>
+                           <div class="product-btns py-3">
+                              <a class="price me-3 my-auto text-decoration-line-through precio">₡12,000</a>
+                              <a class="ms-4 px-4 price me-3 my-auto fw-bolder precio-desc">₡10,200</a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="single-product">
+                           <div class="product-img">
+                              <img src="Img/Descuento 4.png" alt="Imagen de blusa manga corta de color blanco" class="w-100 h-100 rounded">
+                           </div>
+                           <div class="product-title">
+                              <h3>Blusa Manga Corta</h3>
+                           </div>
+                           <div class="product-btns py-3">
+                              <a class="price me-3 my-auto text-decoration-line-through precio">₡16,000</a>
+                              <a class="ms-4 px-4 price me-3 my-auto fw-bolder precio-desc">₡9,600</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!--Segunda Fila-->
+                  <div class="row mt-4">
+                     <div class="container">
+                        <div class="row mt-3">
+                           <div class="col-lg-3 col-md-6 col-sm-6">
+                              <div class="single-product">
+                                 <div class="product-img">
+                                    <img src="Img/Descuento 5.png" alt="Imagen de falda semi corta color naranja y sin bolsas" class="w-100 h-100 rounded">
+                                 </div>
+                                 <div class="product-title">
+                                    <h3>Falda</h3>
+                                 </div>
+                                 <div class="product-btns py-3">
+                                    <a class="price me-3 my-auto text-decoration-line-through precio">₡14,00</a>
+                                    <a class="ms-4 px-4 price me-3 my-auto fw-bolder precio-desc">₡11,200</a>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-3 col-md-6 col-sm-6">
+                              <div class="single-product">
+                                 <div class="product-img">
+                                    <img src="Img/Descuento 6.png" alt="Imagen de vincha rosada con un estampado de circulos blancos" class="w-100 h-100 rounded">
+                                 </div>
+                                 <div class="product-title">
+                                    <h3>Vincha</h3>
+                                 </div>
+                                 <div class="product-btns py-3">
+                                    <a class="price me-3 my-auto text-decoration-line-through precio">₡7,000</a>
+                                    <a class="ms-4 px-4 price me-3 my-auto fw-bolder precio-desc">₡5,950</a>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-3 col-md-6 col-sm-6">
+                              <div class="single-product">
+                                 <div class="product-img">
+                                    <img src="Img/Descuento 7.png" alt="Imagen de brochas de maquillaje color rosado con negro" class="w-100 h-100 rounded">
+                                 </div>
+                                 <div class="product-title">
+                                    <h3>Brochas</h3>
+                                 </div>
+                                 <div class="product-btns py-3">
+                                    <a class="price me-3 my-auto text-decoration-line-through precio">₡16,000</a>
+                                    <a class="ms-4 px-4 price me-3 my-auto fw-bolder precio-desc">₡11,200</a>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-3 col-md-6 col-sm-6">
+                              <div class="single-product">
+                                 <div class="product-img">
+                                    <img src="Img/Descuento 8.png" alt="Imagen de chamarra con bolsas color rosado" class="w-100 h-100 rounded">
+                                 </div>
+                                 <div class="product-title">
+                                    <h3>Chamarra</h3>
+                                 </div>
+                                 <div class="product-btns py-3">
+                                    <a class="price me-3 my-auto text-decoration-line-through precio">₡20,000</a>
+                                    <a class="ms-4 px-4 price me-3 my-auto fw-bolder precio-desc">₡16,000</a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!--Tercera Fila-->
+                  <div class="row mt-4">
+                     <div class="container">
+                        <div class="row mt-3">
+                           <div class="col-lg-3 col-md-6 col-sm-6">
+                              <div class="single-product">
+                                 <div class="product-img">
+                                    <img src="Img/Descuento 9.png" alt="Imagen de vestido formal color azul" class="w-100 h-100 rounded">
+                                 </div>
+                                 <div class="product-title">
+                                    <h3>Vestido</h3>
+                                 </div>
+                                 <div class="product-btns py-3">
+                                    <a class="price me-3 my-auto text-decoration-line-through precio">₡16,000</a>
+                                    <a class="ms-4 px-4 price me-3 my-auto fw-bolder precio-desc">₡13,600</a>>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-3 col-md-6 col-sm-6">
+                              <div class="single-product">
+                                 <div class="product-img">
+                                    <img src="Img/Descuento 10.png" alt="Imagen de collar largo color dorado con dibujos de sol y media luna" class="w-100 h-100 rounded">
+                                 </div>
+                                 <div class="product-title">
+                                    <h3>Collar Largo</h3>
+                                 </div>
+                                 <div class="product-btns py-3">
+                                    <a class="price me-3 my-auto text-decoration-line-through precio">₡9,000</a>
+                                    <a class="ms-4 px-4 price me-3 my-auto fw-bolder precio-desc">₡7,200</a>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-3 col-md-6 col-sm-6">
+                              <div class="single-product">
+                                 <div class="product-img">
+                                    <img src="Img/Descuento 11.png" alt="Imagen de labial color rojo suave" class="w-100 h-100 rounded">
+                                 </div>
+                                 <div class="product-title">
+                                    <h3>Labial Kylie Rojo</h3>
+                                 </div>
+                                 <div class="product-btns py-3">
+                                    <a class="price me-3 my-auto text-decoration-line-through precio">₡25,000</a>
+                                    <a class="ms-4 px-4 price me-3 my-auto fw-bolder precio-desc">₡17,500</a>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-3 col-md-6 col-sm-6">
+                              <div class="single-product">
+                                 <div class="product-img">
+                                    <img src="Img/Descuento 12.png" alt="Imagen de bolso grande para mujer" class="w-100 h-100 rounded">
+                                 </div>
+                                 <div class="product-title">
+                                    <h3>Bolso</h3>
+                                 </div>
+                                 <div class="product-btns py-3">
+                                    <a class="price me-3 my-auto text-decoration-line-through precio">₡34,000</a>
+                                    <a class="ms-4 px-4 price me-3 my-auto fw-bolder precio-desc">₡20,400</a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </main>
+   </section>
+   <!-------------------------------------------------------------------Footer-------------------------------------------------->
+   <footer class="bg-primary">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6 col-6">
+               <h3 class="pt-4 text-white title-footer">Contáctanos</h3>
+               <i class="far fa-envelope me-2 contact-icons" aria-labelledby="icono-correo"></i><a class="text-black-50 contact" id="icono-correo">freyaboutique@gmail.com</a><br>
+               <i class="fas fa-phone-alt me-2 contact-icons" aria-labelledby="icono-telef"></i><a class="text-black-50 contact" id="icono-telef">2526-8745</a><br>
+               <i class="fab fa-whatsapp me-2 contact-icons" aria-labelledby="icono-whatsapp"></i><a class="text-black-50 contact" id="icono-whatsapp">8710-9807</a><br>
+               <i class="fab fa-facebook-f facebook"></i>
+               <i class="fab fa-instagram instagram"></i>
+               <i class="fab fa-twitter twitter"></i>
+               <hr class="line">
+               <div class="footer-copyright text-center py-2 text-black-50">
+                  <p>&copy; Copyright <a href="#" class="text-white">Maikel_2021</a></p>
+                  <p>Designed by Maikel Venegas S.</p>
+               </div>
+            </div>
+            <div class="col-lg-4 d-lg-block d-md-none d-sm-none d-none">
+               <h3 class="pt-4 text-white title-footer">Visítanos</h3>
+               <table class="table table-striped">
+                  <tbody class="horario">
+                  <tr>
+                     <th scope="row">Lunes</th>
+                     <td>10:00 - 17:00</td>
+                  </tr>
+                  <tr>
+                     <th scope="row">Martes</th>
+                     <td>10:00 - 17:00</td>
+                  </tr>
+                  <tr>
+                     <th scope="row">Miércoles</th>
+                     <td>10:00 - 17:00</td>
+                  </tr>
+                  <tr>
+                     <th scope="row">Jueves</th>
+                     <td>10:00 - 17:00</td>
+                  </tr>
+                  <tr>
+                     <th scope="row">Viernes</th>
+                     <td>10:00 - 17:00</td>
+                  </tr>
+                  <tr>
+                     <th scope="row">Sábado</th>
+                     <td>10:00 - 17:00</td>
+                  </tr>
+                  <tr>
+                     <th scope="row">Domingo</th>
+                     <td class="fw-bold">10:30 - 15:00</td>
+                  </tr>
+                  </tbody>
+               </table>
+            </div>
+            <!--Horario en Tablet-->
+            <div class="col-lg-4 col-md-6 col-sm-6 col-6 d-lg-none">
+               <h3 class="pt-4 text-white title-footer">Visitanos</h3>
+               <table class="table table-striped">
+                  <tbody class="horario">
+                  <tr>
+                     <th scope="row">Lunes - Miércoles</th>
+                     <td>10:00 - 17:00</td>
+                  </tr>
+                  <tr>
+                     <th scope="row">Jueves - Sábado</th>
+                     <td>10:00 - 17:00</td>
+                  </tr>
+                  <tr>
+                     <th scope="row">Domingo</th>
+                     <td class="fw-bold">10:30 - 15:00</td>
+                  </tr>
+                  </tbody>
+               </table>
+                     <i class="fas fa-map-marked-alt pe-2 maps" aria-labelledby="direccion"></i>
+                     <a href="https://goo.gl/maps/1x4wF28XiuVY3MSc8" class="text-decoration-none text-white map" target="_blank" id="direccion">Visítanos</a>
+            </div>
+            <div class="col-lg-4 d-lg-block d-sm-none d-none">
+               <div class="container mt-3">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1964.9798950507166!2d-84.09804014205534!3d9.937303740193725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e355c5e836b5%3A0xff03b64447e9a067!2zQ2FsbGUgNDAsIE3DoW50aWNhLCBTYW4gSm9zw6k!5e0!3m2!1ses!2scr!4v1611275596248!5m2!1ses!2scr" 
+                  width="420" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" title="Mapa para ubicación Freya"></iframe>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <!--Script para Bootstrap y Pooper-->
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+   <!--Script del menu-->
+   <script src="Js/menu.js"></script>
+   <!--Script para Pedido-->
+   <script src="Js/sweetalert2.min.js"></script>
+</body>
+</html>
